@@ -1,4 +1,11 @@
 trigger:
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Free Trial (4c2d736a-24d5-44d1-9d9e-916c8f596826)'
+    appType: 'webApp'
+    WebAppName: 'HYD-APP'
+    packageForLinux: '$(System.DefaultWorkingDirectory)'
 - master
 
 pool:
