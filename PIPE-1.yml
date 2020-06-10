@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world---HOW ARE YOU----hopw ur gr8--!
+- script: THIS IS MY FIRST PIPE LINE GUYS--!
   displayName: 'Run a one-line script'
 
 - script: |
